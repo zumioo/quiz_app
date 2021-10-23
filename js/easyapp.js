@@ -46,6 +46,7 @@ const clickHandler = (e) => {
         setupQuiz();
     }else{
         window.alert('終了！あなたの正解数は' + score + 'です')
+        location.href = '/index.html';
     };
 };
 
